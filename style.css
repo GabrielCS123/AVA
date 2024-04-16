@@ -1,0 +1,81 @@
+body {
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    padding: 50px;
+    top: 70px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .1);
+}
+
+.princpal {
+    text-align: center;
+}
+
+.b {
+    margin: 0px 0px 20px 8px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    height: 112px;
+    margin: 0px 0px 20px 7px;
+}
+
+input {
+    font-size: 17px;
+    padding: 15px;
+    border-radius: 8px;
+    border: .5px solid rgb(103, 98, 98);
+    width: 495px;
+}
+
+.meu-input:focus  {
+    color: #8e2323; 
+    font-style: italic;
+}
+
+.botao1 {
+    margin: 0 0 0 8px;
+    padding: 13px 20px 13px 20px;
+    border-radius: 10px;
+    background-color: rgb(0, 150, 57);
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.botao2 {
+    margin: 0 0 0 8px;
+    padding: 13px 20px 13px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #cfcbcb;
+}
+
+a {
+   color: rgba(0, 150, 57);
+   text-decoration: none;
+   margin: 0 0 0 10px;
+}
+
+.perdeu-a-senha {
+    margin: 20px 0 20px 0;
+}
+
+.texto {
+    margin: 0px 0 0px 5px;
+}
+
+.a2 {
+    margin: 1px 0 20px 0;
+}
+
+p {
+    margin: 0;
+}
