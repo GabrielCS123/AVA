@@ -101,7 +101,7 @@ p {
 
 @media screen and (max-width: 800px) {
     
-    .body {
+    :root {
         width: 100px;
         
     }
