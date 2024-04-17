@@ -98,16 +98,3 @@ a:hover {
 p {
     margin: 0;
 }
-
-@media screen and (max-width: 800px) {
-    
-    :root {
-        width: 100px;
-        
-    }
-
-    .container {
-        margin: 10px;
-    }
-
-}
