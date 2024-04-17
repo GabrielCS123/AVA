@@ -74,8 +74,7 @@ input {
 }
 
 a {
-   /*color: rgba(0, 150, 57);*/
-   color: rgb(60, 0, 150);
+   color: rgba(0, 150, 57);
    text-decoration: none;
    margin: 0 0 0 10px;
 }
