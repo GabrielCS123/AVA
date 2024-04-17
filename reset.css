@@ -1,0 +1,68 @@
+/* Reset CSS */
+
+/* Removendo margens e preenchimentos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Removendo estilos padrão de lista */
+ul, ol {
+    list-style: none;
+}
+
+/* Removendo decoração de link padrão */
+a {
+    text-decoration: none;
+}
+
+/* Definindo o estilo padrão de fonte para evitar inconsistências */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Removendo estilos padrão de formulários */
+input, button, textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+/* Corrigindo inconsistências de exibição de elementos inline-block */
+/* Adicionando zoom: 1 para IE anterior a 8 */
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+/* Limpeza de elementos flutuantes */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Corrigindo problemas de seleção de texto no IE */
+/* Evita que o texto seja selecionável em elementos não interativos */
+.non-selectable {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Resetando formatação de botão */
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+/* Resetando formatação de lista de descrição */
+dl {
+    margin: 0;
+}
+
+dt {
+    font-weight: bold;
+}
