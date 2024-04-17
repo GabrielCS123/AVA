@@ -101,8 +101,11 @@ p {
 
 @media screen and (max-width: 800px) {
     
-    .container {
+    .body {
         margin: 10px;
+    }
+
+    .container {
         width: 100px;
     }
 
