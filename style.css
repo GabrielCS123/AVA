@@ -98,3 +98,11 @@ a:hover {
 p {
     margin: 0;
 }
+
+@media screen and (max-width: 768px) {
+    
+    .container {
+        margin: 10px;
+    }
+
+}
