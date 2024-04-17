@@ -14,10 +14,6 @@ body {
     border-radius: 7px;
 }
 
-.princpal {
-    text-align: center;
-}
-
 .b {
     margin: 0px 0px 20px 8px;
 }
@@ -37,7 +33,6 @@ input {
     width: 560px;
 }
 
-
 .botao1 {
     margin: 0 0 0 8px;
     padding: 13px 20px 13px 20px;
@@ -45,6 +40,7 @@ input {
     background-color: rgb(0, 150, 57);
     color: #ffffff;
     font-size: 16px;
+    border: 1px solid blue;
 }
 
 .botao1:hover {
@@ -52,7 +48,7 @@ input {
 }
 
 .botao1:active {
-    box-shadow: 0px 0px 3px rgba(87, 137, 203);
+    box-shadow: 0px 0px 5px rgb(11, 129, 198);
     border: 1px solid blue;
 }
 
@@ -70,31 +66,33 @@ input {
 
 .botao2:active {
     box-shadow: 0px 0px 3px rgb(159, 162, 164);
-    border: 1px solid rgb(69, 69, 69);
+    border: .1px solid rgb(147, 146, 146);
 }
 
 a {
    color: rgba(0, 150, 57);
    text-decoration: none;
-   margin: 0 0 0 10px;
+   margin: 0 0 0 8px;
 }
 
 a:hover {
     color: red;
+    font-size: 17px;
 }
 
 .perdeu-a-senha {
     margin: 20px 0 20px 0;
 }
 
-.texto {
-    margin: 0px 0 0px 5px;
-}
 
 .a2 {
     margin: 1px 0 20px 0;
 }
 
-p {
-    margin: 0;
+p, h2 {
+    margin: 0 0 0 0px;
+}
+
+.texto {
+    margin: 0px 0 0px 6px;
 }
